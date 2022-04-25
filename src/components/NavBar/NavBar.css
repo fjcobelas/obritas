@@ -1,0 +1,30 @@
+.nav {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 79, 138);
+    height: 75px;
+    display: flex;
+  
+}
+.nav a {
+    color: rgba(84, 5, 5, 0.9) !important;
+    margin: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.5em 1.5em;
+    background: rgb(120, 79, 138);
+    text-decoration: none;
+  }
+  .nav a:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgb(209, 195, 219);
+    transition: all 0.2s ease;
+  }
+  .carro { 
+    display: flex;
+    height: 60px;
+    width: 50px;
+    float: right;
+    align-items: center;
+  }
